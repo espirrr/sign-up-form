@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#mainBox {
+    display: flex;
+    border: 3px solid black;
+    height: 97vh;
+    width: 85vw;
+    border-radius: 30px;
+}
+
+#leftContainer {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+
+.picture {
+    
+    width: 30vw;
+    height: 97vh;
+    object-fit: cover;
+    border-radius: 30px 0px 0px 30px;
+
+}
+
+.pictureTwo {
+
+    height: 105px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 22%;
+    bottom: 60%;
+    /* border: 3px solid red; */
+    width: 30vw;
+    background-color:rgba(0, 0, 0, 0.55);
+    color: white;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#rightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #f9fafb;
+    border-radius: 0px 30px 30px 0px;
+}
+
+ #middleBox {
+    height: 33%;
+    /* border: 1px solid red; */
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#topBox, #bottomBox {
+    height: 20%;
+    /* border: 1px solid red; */
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 30px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.generalText {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+
+#middleBox {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 10px 5px -1px rgb(160, 160, 160);
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+#rightForm {
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.form {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.formLabel {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75em;
+}
+
+label {
+    display: block;
+}
+
+button {
+
+    padding: 5px;
+    height: 40px;
+    width: 185px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: #596D48;
+    cursor: pointer;
+    
+
+}
+
+a:hover {
+    color: red;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 3px 5px 5px 0px rgb(160, 160, 160);
+    border: 1px solid blue;
+}
