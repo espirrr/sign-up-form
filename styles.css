@@ -91,22 +91,36 @@ html {
 
 #middleBox {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
     background-color: white;
     box-shadow: 0px 10px 5px -1px rgb(160, 160, 160);
     padding-bottom: 30px;
     padding-top: 10px;
 }
 
-#rightForm {
-    margin-left: 75px;
-    margin-top: 25px;
+form {
+    display: grid; /* to use css-grid */
+    grid-template-columns: 1fr 1fr; /* creates 2 columns */
+    gap: 20px; /* creates a gap between the columns and rows */
 }
 
-.form {
-    margin-bottom: 12px;
-    margin-top: 12px;
+
+
+::placeholder {
+    color :rgb(179, 179, 179);
 }
+
+
+input {
+    border: 2px solid #000;
+
+}
+
+input:valid {
+    border-color: rgb(21, 68, 21);
+  }
 
 .formLabel {
 
